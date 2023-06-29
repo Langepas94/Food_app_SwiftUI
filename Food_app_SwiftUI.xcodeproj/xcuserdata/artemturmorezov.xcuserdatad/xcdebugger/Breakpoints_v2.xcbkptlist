@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B2E8E67-52C9-4AB8-8143-7196A8A3F97D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B46908A9-5299-4314-BC6F-6CA3B64E3B78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B46908A9-5299-4314-BC6F-6CA3B64E3B78 - 34f6626216fc8506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Food_app_SwiftUI.CategoriesNetworkDataModel) -&gt; () in Food_app_SwiftUI.MainScreenViewModel.loadData() -&gt; ()"
+                  moduleName = "Food_app_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemturmorezov/swift/Food_app_SwiftUI/Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "B46908A9-5299-4314-BC6F-6CA3B64E3B78 - d40536c1977168bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Food_app_SwiftUI.Categories) -&gt; () in closure #2 (Food_app_SwiftUI.CategoriesNetworkDataModel) -&gt; () in Food_app_SwiftUI.MainScreenViewModel.loadData() -&gt; ()"
+                  moduleName = "Food_app_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemturmorezov/swift/Food_app_SwiftUI/Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5839B3A-5B05-46A7-9A87-87C22DF7B16D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5839B3A-5B05-46A7-9A87-87C22DF7B16D - 95932643e5d409a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in Food_app_SwiftUI.MainScreenViewModel.loadData() -&gt; ()"
+                  moduleName = "Food_app_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemturmorezov/swift/Food_app_SwiftUI/Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "D5839B3A-5B05-46A7-9A87-87C22DF7B16D - 34f6626216fc8482"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Food_app_SwiftUI.CategoriesNetworkDataModel) -&gt; () in Food_app_SwiftUI.MainScreenViewModel.loadData() -&gt; ()"
+                  moduleName = "Food_app_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemturmorezov/swift/Food_app_SwiftUI/Food_app_SwiftUI/MainScreen/ViewModel/MainScreenViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

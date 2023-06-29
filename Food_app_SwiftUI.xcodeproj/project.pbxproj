@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		441869F02A4C227600CA16F8 /* Food_app_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441869EF2A4C227600CA16F8 /* Food_app_SwiftUIApp.swift */; };
-		441869F22A4C227600CA16F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441869F12A4C227600CA16F8 /* ContentView.swift */; };
 		441869F42A4C227700CA16F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441869F32A4C227700CA16F8 /* Assets.xcassets */; };
 		441869F72A4C227700CA16F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441869F62A4C227700CA16F8 /* Preview Assets.xcassets */; };
 		44186A012A4C227700CA16F8 /* Food_app_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A002A4C227700CA16F8 /* Food_app_SwiftUITests.swift */; };
 		44186A0B2A4C227800CA16F8 /* Food_app_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A0A2A4C227800CA16F8 /* Food_app_SwiftUIUITests.swift */; };
 		44186A0D2A4C227800CA16F8 /* Food_app_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A0C2A4C227800CA16F8 /* Food_app_SwiftUIUITestsLaunchTests.swift */; };
+		44186A1B2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A1A2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift */; };
+		44186A202A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A1F2A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift */; };
+		44186A222A4D60A900CA16F8 /* NetworkServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A212A4D60A900CA16F8 /* NetworkServiceImpl.swift */; };
+		44186A252A4D632E00CA16F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A242A4D632E00CA16F8 /* AppCoordinator.swift */; };
+		44186A2D2A4D641D00CA16F8 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A2C2A4D641D00CA16F8 /* AppCoordinatorView.swift */; };
+		44186A2F2A4D647100CA16F8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44186A2E2A4D647100CA16F8 /* Coordinator.swift */; };
+		443DEFA52A4D6D83006C7C4E /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFA42A4D6D83006C7C4E /* MainScreenModel.swift */; };
+		443DEFA72A4D6D89006C7C4E /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFA62A4D6D89006C7C4E /* MainScreenViewModel.swift */; };
+		443DEFA92A4D6F08006C7C4E /* MainModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFA82A4D6F08006C7C4E /* MainModelProtocol.swift */; };
+		443DEFAB2A4D6F79006C7C4E /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFAA2A4D6F79006C7C4E /* MainScreenView.swift */; };
+		443DEFAD2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFAC2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift */; };
+		443DEFB02A4D96DC006C7C4E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 443DEFAF2A4D96DC006C7C4E /* Kingfisher */; };
+		443DEFB32A4DAE8B006C7C4E /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */; };
+		443DEFB92A4DB7AD006C7C4E /* DishesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFB82A4DB7AD006C7C4E /* DishesDataModel.swift */; };
+		443DEFBB2A4DBC3F006C7C4E /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */; };
+		443DEFBD2A4DBDCF006C7C4E /* DetailScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFBC2A4DBDCF006C7C4E /* DetailScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		441869EC2A4C227600CA16F8 /* Food_app_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food_app_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441869EF2A4C227600CA16F8 /* Food_app_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_app_SwiftUIApp.swift; sourceTree = "<group>"; };
-		441869F12A4C227600CA16F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		441869F32A4C227700CA16F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441869F62A4C227700CA16F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		441869FC2A4C227700CA16F8 /* Food_app_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food_app_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,21 @@
 		44186A062A4C227800CA16F8 /* Food_app_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food_app_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44186A0A2A4C227800CA16F8 /* Food_app_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_app_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		44186A0C2A4C227800CA16F8 /* Food_app_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_app_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44186A1A2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		44186A1F2A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesNetworkDataModel.swift; sourceTree = "<group>"; };
+		44186A212A4D60A900CA16F8 /* NetworkServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceImpl.swift; sourceTree = "<group>"; };
+		44186A242A4D632E00CA16F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		44186A2C2A4D641D00CA16F8 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
+		44186A2E2A4D647100CA16F8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		443DEFA42A4D6D83006C7C4E /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		443DEFA62A4D6D89006C7C4E /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		443DEFA82A4D6F08006C7C4E /* MainModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModelProtocol.swift; sourceTree = "<group>"; };
+		443DEFAA2A4D6F79006C7C4E /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		443DEFAC2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModelProtocol.swift; sourceTree = "<group>"; };
+		443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		443DEFB82A4DB7AD006C7C4E /* DishesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesDataModel.swift; sourceTree = "<group>"; };
+		443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
+		443DEFBC2A4DBDCF006C7C4E /* DetailScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443DEFB02A4D96DC006C7C4E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +124,11 @@
 		441869EE2A4C227600CA16F8 /* Food_app_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				443DEFB12A4DAE7F006C7C4E /* DetailScreen */,
+				44186A232A4D631800CA16F8 /* Coordinator */,
+				443DEF9E2A4D6D47006C7C4E /* MainScreen */,
+				44186A192A4D5B3100CA16F8 /* NetworkManager */,
 				441869EF2A4C227600CA16F8 /* Food_app_SwiftUIApp.swift */,
-				441869F12A4C227600CA16F8 /* ContentView.swift */,
 				441869F32A4C227700CA16F8 /* Assets.xcassets */,
 				441869F52A4C227700CA16F8 /* Preview Content */,
 			);
@@ -127,6 +160,105 @@
 			path = Food_app_SwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		44186A192A4D5B3100CA16F8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				44186A1C2A4D5CCE00CA16F8 /* DataModel */,
+				44186A1A2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift */,
+				44186A212A4D60A900CA16F8 /* NetworkServiceImpl.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		44186A1C2A4D5CCE00CA16F8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				44186A1F2A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift */,
+				443DEFB82A4DB7AD006C7C4E /* DishesDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		44186A232A4D631800CA16F8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				44186A242A4D632E00CA16F8 /* AppCoordinator.swift */,
+				44186A2E2A4D647100CA16F8 /* Coordinator.swift */,
+				44186A2C2A4D641D00CA16F8 /* AppCoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		443DEF9E2A4D6D47006C7C4E /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFA12A4D6D60006C7C4E /* ViewModel */,
+				443DEFA02A4D6D5D006C7C4E /* Model */,
+				443DEF9F2A4D6D58006C7C4E /* View */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		443DEF9F2A4D6D58006C7C4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFAA2A4D6F79006C7C4E /* MainScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		443DEFA02A4D6D5D006C7C4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFA42A4D6D83006C7C4E /* MainScreenModel.swift */,
+				443DEFA82A4D6F08006C7C4E /* MainModelProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		443DEFA12A4D6D60006C7C4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFA62A4D6D89006C7C4E /* MainScreenViewModel.swift */,
+				443DEFAC2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		443DEFB12A4DAE7F006C7C4E /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFB72A4DB78C006C7C4E /* ViewModel */,
+				443DEFB62A4DB788006C7C4E /* Model */,
+				443DEFB42A4DB776006C7C4E /* View */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		443DEFB42A4DB776006C7C4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		443DEFB62A4DB788006C7C4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFBC2A4DBDCF006C7C4E /* DetailScreenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		443DEFB72A4DB78C006C7C4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +275,9 @@
 			dependencies = (
 			);
 			name = Food_app_SwiftUI;
+			packageProductDependencies = (
+				443DEFAF2A4D96DC006C7C4E /* Kingfisher */,
+			);
 			productName = Food_app_SwiftUI;
 			productReference = 441869EC2A4C227600CA16F8 /* Food_app_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 441869E32A4C227600CA16F8;
+			packageReferences = (
+				443DEFAE2A4D96DC006C7C4E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 441869ED2A4C227600CA16F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +395,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441869F22A4C227600CA16F8 /* ContentView.swift in Sources */,
+				443DEFA92A4D6F08006C7C4E /* MainModelProtocol.swift in Sources */,
+				44186A252A4D632E00CA16F8 /* AppCoordinator.swift in Sources */,
+				443DEFA72A4D6D89006C7C4E /* MainScreenViewModel.swift in Sources */,
+				44186A202A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift in Sources */,
+				44186A2F2A4D647100CA16F8 /* Coordinator.swift in Sources */,
+				44186A2D2A4D641D00CA16F8 /* AppCoordinatorView.swift in Sources */,
+				443DEFBD2A4DBDCF006C7C4E /* DetailScreenModel.swift in Sources */,
+				44186A1B2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift in Sources */,
+				443DEFAB2A4D6F79006C7C4E /* MainScreenView.swift in Sources */,
+				443DEFB32A4DAE8B006C7C4E /* DetailScreen.swift in Sources */,
+				443DEFB92A4DB7AD006C7C4E /* DishesDataModel.swift in Sources */,
+				44186A222A4D60A900CA16F8 /* NetworkServiceImpl.swift in Sources */,
+				443DEFAD2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift in Sources */,
 				441869F02A4C227600CA16F8 /* Food_app_SwiftUIApp.swift in Sources */,
+				443DEFA52A4D6D83006C7C4E /* MainScreenModel.swift in Sources */,
+				443DEFBB2A4DBC3F006C7C4E /* DetailScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -423,8 +575,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +603,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +733,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		443DEFAE2A4D96DC006C7C4E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		443DEFAF2A4D96DC006C7C4E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 443DEFAE2A4D96DC006C7C4E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 441869E42A4C227600CA16F8 /* Project object */;
 }

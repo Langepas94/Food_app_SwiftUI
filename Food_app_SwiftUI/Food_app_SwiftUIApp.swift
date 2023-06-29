@@ -11,7 +11,7 @@ import SwiftUI
 struct Food_app_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           AppCoordinatorView(coordinator: AppCoordinator())
         }
     }
 }
