@@ -13,11 +13,11 @@ struct MainScreenView: View {
     @StateObject var viewModel:  MainScreenViewModel
     
     var body: some View {
-        accountView
+        categoriesView
     }
     
     @ViewBuilder
-    var accountView: some View {
+    var categoriesView: some View {
         
         VStack {
             ScrollView(showsIndicators: false) {
@@ -36,8 +36,9 @@ struct MainScreenView: View {
                                     .truncationMode(.tail)
                                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                                     .padding()
+                                
                             }
-                        }
+                    }
                 }
             }
 

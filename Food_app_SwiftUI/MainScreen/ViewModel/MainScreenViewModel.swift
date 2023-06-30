@@ -17,6 +17,10 @@ class MainScreenViewModel: MainScreenViewModelProtocol {
    
     @Published var city: String = "Санкт - Петербург"
     
+    var selectedScreen = PassthroughSubject<String, Never>()
+    
+    @Published var selectedCategory: MainScreenModel?
+    
     var cancellables: Set<AnyCancellable> = []
     
     var formattedDate: String {
@@ -24,6 +28,16 @@ class MainScreenViewModel: MainScreenViewModelProtocol {
         let format = DateFormatter()
         format.dateFormat = "dd MMMM, YYYY"
         return format.string(from: date)
+    }
+    
+    func didSelectCategory(category: MainScreenModel) {
+        selectedCategory = category
+    }
+    
+    func sendData() {
+        selectedScreen.sink { value in
+            print("mum")
+        }.store(in: &cancellables)
     }
     
     func loadData() {

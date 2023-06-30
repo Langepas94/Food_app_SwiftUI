@@ -6,18 +6,20 @@
 //
 
 import SwiftUI
+import Combine
 
 struct AppCoordinatorView: View {
+    
     @ObservedObject var coordinator: AppCoordinator
+    @State private var shouldNavigate = false
     var body: some View {
         TabView {
             NavigationView {
-              
-                    let viewModel = MainScreenViewModel()
-                    MainScreenView(viewModel: viewModel)
                 
-//                FeedCoordinatorView(coordinator: coordinator.viewModel(for: .homeFeedCoordinator))
-             
+                    MainScreenView(viewModel: coordinator.categoriesViewModel)
+               
+                    
+                       
             }
            
             .tabItem {
@@ -58,6 +60,7 @@ struct AppCoordinatorView: View {
         }
             
     }
+
 }
 
 

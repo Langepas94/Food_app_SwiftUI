@@ -7,19 +7,13 @@
 
 import Foundation
 
-enum AppCoordinatorNavigation {
-    case homeCoordinator
-    case searchCoordinator
-    case basketCoordinator
-    case accountCoordinator
+protocol Coordinator {
+    
 }
 
-final class AppCoordinator: Coordinator {
-    @Published var navigationStack: [(AppCoordinatorNavigation, Any)] = []
-    
-    init() {
-//        pushToNavigationStack(.homeFeedCoordinator, viewModel: FeedCoordinator(feed: .home))
-//        pushToNavigationStack(.musicFeedCoordinator, viewModel: FeedCoordinator(feed: .music))
-//        pushToNavigationStack(.accountCoordinator, viewModel: AccountCoordinator())
-    }
+final class AppCoordinator: Coordinator, ObservableObject {
+
+    @Published var categoriesViewModel: MainScreenViewModel = MainScreenViewModel()
+    @Published var detailViewModel: DetailScreenViewModel = DetailScreenViewModel()
+    @Published var basketViewModel: BasketViewModel = BasketViewModel()
 }

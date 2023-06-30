@@ -17,7 +17,17 @@ class DetailScreenViewModel: ObservableObject {
     @Published var allTags: [Teg] = [Teg]()
     @Published var menuData: [DetailScreenModel] = [DetailScreenModel]()
     @Published var modelsCount = 0
+    
+    var selectedProductSubject = PassthroughSubject<DetailScreenModel, Never>()
+    
     var cancellables: Set<AnyCancellable> = []
+    
+    func bind() {
+        selectedProductSubject
+            .sink { model in
+                print(model)
+            }.store(in: &cancellables)
+    }
     
     func loadData() {
         networkManager.loadDishes()

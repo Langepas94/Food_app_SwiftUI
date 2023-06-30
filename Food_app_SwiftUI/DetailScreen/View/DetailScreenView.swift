@@ -63,12 +63,10 @@ struct DetailScreenView: View {
 //                .navigationBarBackButtonHidden(true)
 //                .navigationBarItems(leading: Text("<"))
                 
-                
-                
-                
-            
-        
-            PopUpWindow(title: currentItemTapped?.dishName ?? "", price: currentItemTapped?.price ?? 0, weight: currentItemTapped?.weight ?? 0, description: currentItemTapped?.description ?? "", image: currentItemTapped?.dishImage ?? "", show: $showingPopup)
+            PopUpWindow(title: currentItemTapped?.dishName ?? "", price: currentItemTapped?.price ?? 0, weight: currentItemTapped?.weight ?? 0, description: currentItemTapped?.description ?? "", image: currentItemTapped?.dishImage ?? "", show: $showingPopup, action: {
+                viewModel.selectedProductSubject.send(currentItemTapped!)
+                viewModel.bind()
+            })
                 .opacity(showingPopup ? 1.0 : 0.0)
                 .animation(.easeInOut(duration: 0.2))
                 
