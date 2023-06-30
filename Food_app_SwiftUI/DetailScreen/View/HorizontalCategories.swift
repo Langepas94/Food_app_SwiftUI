@@ -9,22 +9,22 @@ import SwiftUI
 
 struct HorizontalCategories: View {
     
-    @State var categories: [Teg]
+    @State var categories: [String]
     @State private var selectedTags: [Teg] = []
+    
+    @State var selected: Bool = false
     
  
     var body: some View {
         HStack {
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 16) {
-                    ForEach(categories, id: \.rawValue) { tag in
-                        TagView(tag: tag, isSelected: true) {
-                            print("mem")
+                    ForEach(categories, id: \.hashValue) { tag in
+                        TagView(tag: tag, isSelected: selected) {
+                            selected.toggle()
                         }
-                            
+                        
                     }
-                    
-                    
                 }
                 .padding(.horizontal, 16)
             }

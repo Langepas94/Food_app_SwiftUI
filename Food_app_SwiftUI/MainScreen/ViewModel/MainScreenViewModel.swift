@@ -33,7 +33,7 @@ class MainScreenViewModel: MainScreenViewModelProtocol {
                 switch completion {
                      
                 case .finished:
-//                    print(self.categoriesData)
+
                     break
                 case .failure(let error):
                     print(error)

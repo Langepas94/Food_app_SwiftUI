@@ -23,10 +23,8 @@ struct DetailScreenView: View {
     var stickyHeaderView: some View {
         
         HStack {
-            HorizontalCategories(categories: viewModel.allTags)
+            HorizontalCategories(categories: viewModel.categories)
         }
-        
-            
         
     }
     var body: some View {

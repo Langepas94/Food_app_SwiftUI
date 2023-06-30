@@ -37,6 +37,7 @@ struct AppCoordinatorView: View {
             
             NavigationView {
 //                AccountCoordinatorView(coordinator: coordinator.viewModel(for: .accountCoordinator))
+                BasketScreenView(viewModel: BasketViewModel())
             }
             .tabItem {
                 Image("корзина").renderingMode(.template)
@@ -46,7 +47,7 @@ struct AppCoordinatorView: View {
             
             NavigationView {
 //                AccountCoordinatorView(coordinator: coordinator.viewModel(for: .accountCoordinator))
-                StickyHeaderViewExample()
+                
             }
             .tabItem {
                 

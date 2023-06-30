@@ -18,8 +18,8 @@ struct MainScreenView: View {
     
     @ViewBuilder
     var accountView: some View {
+        
         VStack {
-       
             ScrollView(showsIndicators: false) {
                 let categories = viewModel.categoriesData
                 ForEach(categories, id: \.title) { category in

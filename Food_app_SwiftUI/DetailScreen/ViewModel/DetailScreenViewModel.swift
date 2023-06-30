@@ -26,8 +26,8 @@ class DetailScreenViewModel: ObservableObject {
                 switch completion {
                     
                 case .finished:
-                    //                    print(self.menuData)
-                    print(self.allTags)
+                    
+                    break
                 case .failure(let error):
                     print(error)
                 }
