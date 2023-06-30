@@ -25,10 +25,16 @@
 		443DEFAB2A4D6F79006C7C4E /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFAA2A4D6F79006C7C4E /* MainScreenView.swift */; };
 		443DEFAD2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFAC2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift */; };
 		443DEFB02A4D96DC006C7C4E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 443DEFAF2A4D96DC006C7C4E /* Kingfisher */; };
-		443DEFB32A4DAE8B006C7C4E /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */; };
+		443DEFB32A4DAE8B006C7C4E /* HorizontalCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFB22A4DAE8B006C7C4E /* HorizontalCategories.swift */; };
 		443DEFB92A4DB7AD006C7C4E /* DishesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFB82A4DB7AD006C7C4E /* DishesDataModel.swift */; };
 		443DEFBB2A4DBC3F006C7C4E /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */; };
 		443DEFBD2A4DBDCF006C7C4E /* DetailScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFBC2A4DBDCF006C7C4E /* DetailScreenModel.swift */; };
+		443DEFBF2A4DC41D006C7C4E /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFBE2A4DC41D006C7C4E /* DetailScreenView.swift */; };
+		443DEFC22A4DD039006C7C4E /* AccountScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFC12A4DD039006C7C4E /* AccountScreenView.swift */; };
+		443DEFC42A4DF029006C7C4E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFC32A4DF029006C7C4E /* ItemCell.swift */; };
+		443DEFC72A4DF226006C7C4E /* StickyCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFC62A4DF226006C7C4E /* StickyCollectionHeader.swift */; };
+		443DEFC92A4DF9DA006C7C4E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFC82A4DF9DA006C7C4E /* PopUpView.swift */; };
+		443DEFCC2A4EB199006C7C4E /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DEFCB2A4EB199006C7C4E /* TagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +75,16 @@
 		443DEFA82A4D6F08006C7C4E /* MainModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModelProtocol.swift; sourceTree = "<group>"; };
 		443DEFAA2A4D6F79006C7C4E /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		443DEFAC2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModelProtocol.swift; sourceTree = "<group>"; };
-		443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		443DEFB22A4DAE8B006C7C4E /* HorizontalCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCategories.swift; sourceTree = "<group>"; };
 		443DEFB82A4DB7AD006C7C4E /* DishesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesDataModel.swift; sourceTree = "<group>"; };
 		443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
 		443DEFBC2A4DBDCF006C7C4E /* DetailScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenModel.swift; sourceTree = "<group>"; };
+		443DEFBE2A4DC41D006C7C4E /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		443DEFC12A4DD039006C7C4E /* AccountScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreenView.swift; sourceTree = "<group>"; };
+		443DEFC32A4DF029006C7C4E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		443DEFC62A4DF226006C7C4E /* StickyCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyCollectionHeader.swift; sourceTree = "<group>"; };
+		443DEFC82A4DF9DA006C7C4E /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		443DEFCB2A4EB199006C7C4E /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,8 @@
 		441869EE2A4C227600CA16F8 /* Food_app_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				443DEFCA2A4E18DD006C7C4E /* Extensions */,
+				443DEFC02A4DD01A006C7C4E /* AccountScreen */,
 				443DEFB12A4DAE7F006C7C4E /* DetailScreen */,
 				44186A232A4D631800CA16F8 /* Coordinator */,
 				443DEF9E2A4D6D47006C7C4E /* MainScreen */,
@@ -238,7 +252,10 @@
 		443DEFB42A4DB776006C7C4E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				443DEFB22A4DAE8B006C7C4E /* DetailScreen.swift */,
+				443DEFC52A4DF21D006C7C4E /* Header */,
+				443DEFB22A4DAE8B006C7C4E /* HorizontalCategories.swift */,
+				443DEFBE2A4DC41D006C7C4E /* DetailScreenView.swift */,
+				443DEFC32A4DF029006C7C4E /* ItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,6 +274,31 @@
 				443DEFBA2A4DBC3F006C7C4E /* DetailScreenViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		443DEFC02A4DD01A006C7C4E /* AccountScreen */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFC12A4DD039006C7C4E /* AccountScreenView.swift */,
+			);
+			path = AccountScreen;
+			sourceTree = "<group>";
+		};
+		443DEFC52A4DF21D006C7C4E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				443DEFC62A4DF226006C7C4E /* StickyCollectionHeader.swift */,
+				443DEFC82A4DF9DA006C7C4E /* PopUpView.swift */,
+				443DEFCB2A4EB199006C7C4E /* TagView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		443DEFCA2A4E18DD006C7C4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,22 +437,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443DEFC92A4DF9DA006C7C4E /* PopUpView.swift in Sources */,
+				443DEFBF2A4DC41D006C7C4E /* DetailScreenView.swift in Sources */,
 				443DEFA92A4D6F08006C7C4E /* MainModelProtocol.swift in Sources */,
 				44186A252A4D632E00CA16F8 /* AppCoordinator.swift in Sources */,
 				443DEFA72A4D6D89006C7C4E /* MainScreenViewModel.swift in Sources */,
 				44186A202A4D5F5A00CA16F8 /* CategoriesNetworkDataModel.swift in Sources */,
 				44186A2F2A4D647100CA16F8 /* Coordinator.swift in Sources */,
+				443DEFC42A4DF029006C7C4E /* ItemCell.swift in Sources */,
 				44186A2D2A4D641D00CA16F8 /* AppCoordinatorView.swift in Sources */,
 				443DEFBD2A4DBDCF006C7C4E /* DetailScreenModel.swift in Sources */,
+				443DEFC22A4DD039006C7C4E /* AccountScreenView.swift in Sources */,
 				44186A1B2A4D5B7300CA16F8 /* NetworkManagerProtocol.swift in Sources */,
 				443DEFAB2A4D6F79006C7C4E /* MainScreenView.swift in Sources */,
-				443DEFB32A4DAE8B006C7C4E /* DetailScreen.swift in Sources */,
+				443DEFCC2A4EB199006C7C4E /* TagView.swift in Sources */,
+				443DEFB32A4DAE8B006C7C4E /* HorizontalCategories.swift in Sources */,
 				443DEFB92A4DB7AD006C7C4E /* DishesDataModel.swift in Sources */,
 				44186A222A4D60A900CA16F8 /* NetworkServiceImpl.swift in Sources */,
 				443DEFAD2A4D7323006C7C4E /* MainScreenViewModelProtocol.swift in Sources */,
 				441869F02A4C227600CA16F8 /* Food_app_SwiftUIApp.swift in Sources */,
 				443DEFA52A4D6D83006C7C4E /* MainScreenModel.swift in Sources */,
 				443DEFBB2A4DBC3F006C7C4E /* DetailScreenViewModel.swift in Sources */,
+				443DEFC72A4DF226006C7C4E /* StickyCollectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

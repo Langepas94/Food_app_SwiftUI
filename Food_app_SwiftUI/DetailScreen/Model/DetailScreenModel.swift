@@ -10,4 +10,8 @@ import Foundation
 struct DetailScreenModel {
     let dishName: String
     let dishImage: String
+    let price: Int
+    let weight: Int
+    let description: String?
+    let tags: [Teg]
 }

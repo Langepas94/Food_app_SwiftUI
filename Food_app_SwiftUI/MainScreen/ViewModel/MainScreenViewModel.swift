@@ -14,7 +14,7 @@ class MainScreenViewModel: MainScreenViewModelProtocol {
     let networkManager = NetworkServiceImpl()
     
     @Published var categoriesData: [MainScreenModel] = [MainScreenModel]()
-    
+   
     @Published var city: String = "Санкт - Петербург"
     
     var cancellables: Set<AnyCancellable> = []
@@ -33,7 +33,8 @@ class MainScreenViewModel: MainScreenViewModelProtocol {
                 switch completion {
                      
                 case .finished:
-                    print(self.categoriesData)
+//                    print(self.categoriesData)
+                    break
                 case .failure(let error):
                     print(error)
                 }

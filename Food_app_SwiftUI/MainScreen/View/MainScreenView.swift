@@ -23,7 +23,7 @@ struct MainScreenView: View {
             ScrollView(showsIndicators: false) {
                 let categories = viewModel.categoriesData
                 ForEach(categories, id: \.title) { category in
-                    NavigationLink(destination: DetailScreen()) {
+                    NavigationLink(destination: DetailScreenView(viewModel: DetailScreenViewModel())) {
                             ZStack {
                                 KFImage(URL(string: category.image ?? ""))
                                     .resizable()

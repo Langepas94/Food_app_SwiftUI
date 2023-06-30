@@ -46,8 +46,10 @@ struct AppCoordinatorView: View {
             
             NavigationView {
 //                AccountCoordinatorView(coordinator: coordinator.viewModel(for: .accountCoordinator))
+                StickyHeaderViewExample()
             }
             .tabItem {
+                
                 Image("аккаунт").renderingMode(.template)
                 Text("Аккаунт")
             }

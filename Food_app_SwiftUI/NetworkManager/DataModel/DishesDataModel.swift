@@ -27,7 +27,7 @@ struct Dish: Codable {
     }
 }
 
-enum Teg: String, Codable {
+enum Teg: String, Codable, CaseIterable {
     case всеМеню = "Все меню"
     case сРисом = "С рисом"
     case сРыбой = "С рыбой"
